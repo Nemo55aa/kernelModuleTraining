@@ -2,7 +2,7 @@
 /**
  * 1. makeする(See: *./Makefile*)、
  * 2.
- * $: sudo journalctl -r
+ * $: sudo journalctl -f
  * 3. 
  * 	$: sudo modprobe ./hello-1.ko 
  * OR
