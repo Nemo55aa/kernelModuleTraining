@@ -9,5 +9,28 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	//
-my_exit	./main.c	/^static void my_exit(void)$/;"	f	typeref:typename:void	file:
-my_init	./main.c	/^static int my_init(void)$/;"	f	typeref:typename:int	file:
+BUF_LEN	./chardev.c	/^#define BUF_LEN /;"	d	file:
+DEVICE_NAME	./chardev.c	/^#define DEVICE_NAME /;"	d	file:
+Major	./chardev.c	/^static int Major;$/;"	v	typeref:typename:int	file:
+SUCCESS	./chardev.c	/^#define SUCCESS /;"	d	file:
+__initdata	./hello-3.c	/^static int hello3_data __initdata = 3;$/;"	v	typeref:typename:int hello3_data	file:
+all	./Makefile	/^all:$/;"	t
+clean	./Makefile	/^clean:$/;"	t
+cleanup_module	./chardev.c	/^void cleanup_module(void)$/;"	f	typeref:typename:void
+cleanup_module	./hello-1.c	/^void cleanup_module(void)$/;"	f	typeref:typename:void
+cleanup_module	./stop.c	/^void cleanup_module(void)$/;"	f	typeref:typename:void
+fops	./chardev.c	/^static struct file_opeerations fops = {$/;"	v	typeref:struct:file_opeerations	file:
+hello_2_exit	./hello-2.c	/^static void __exit hello_2_exit(void)$/;"	f	typeref:typename:void __exit	file:
+hello_2_init	./hello-2.c	/^static int __init hello_2_init(void)$/;"	f	typeref:typename:int __init	file:
+hello_3_exit	./hello-3.c	/^static void __exit hello_3_exit(void)$/;"	f	typeref:typename:void __exit	file:
+hello_3_init	./hello-3.c	/^static int __init hello_3_init(void)$/;"	f	typeref:typename:int __init	file:
+hello_4_exit	./hello-4.c	/^static void __exit hello_4_exit(void)$/;"	f	typeref:typename:void __exit	file:
+hello_4_init	./hello-4.c	/^static int __init hello_4_init(void)$/;"	f	typeref:typename:int __init	file:
+init_module	./chardev.c	/^int init_module(void)$/;"	f	typeref:typename:int
+init_module	./hello-1.c	/^int init_module(void)$/;"	f	typeref:typename:int
+init_module	./start.c	/^int init_module(void)$/;"	f	typeref:typename:int
+initdata	./hello-3.c	/^static int __initdata initdata = 0xff;$/;"	v	typeref:typename:int __initdata	file:
+isDevOpened	./chardev.c	/^static int isDevOpened = 0;$/;"	v	typeref:typename:int	file:
+msg	./chardev.c	/^static char msg[BUF_LEN];$/;"	v	typeref:typename:char[]	file:
+msg_Ptr	./chardev.c	/^static char *msg_Ptr;$/;"	v	typeref:typename:char *	file:
+startstop-objs	./Makefile	/^startstop-objs := start.o stop.o$/;"	m
